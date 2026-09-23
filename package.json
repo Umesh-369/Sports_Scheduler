@@ -1,0 +1,15 @@
+{
+  "name": "sports-scheduler-workspace",
+  "version": "1.0.0",
+  "description": "Sports Scheduler — Production-Quality Full-Stack Sports Match & Session Scheduling Platform",
+  "scripts": {
+    "db:setup": "npm --prefix backend run db:setup",
+    "test": "npm --prefix backend test",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["sports", "scheduler", "react", "express", "mysql", "sequelize"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
